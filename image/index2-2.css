@@ -1,0 +1,511 @@
+.container{
+    padding-left: 20px;
+    background-color:lightskyblue;
+    padding-bottom: 70px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding:15px 0;
+    margin-left:0px;
+    margin-top: -100px;
+ 
+}
+
+ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:2px solid white;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 0.5s;
+}
+
+.teacher{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 30px;
+    border: 5px dotted white;
+}
+.tname1{
+   padding: 50px;
+   margin-top: 60px;
+   margin-left:100px;
+   background-color: lightskyblue;
+   text-align: center;
+   padding-left:10px;
+   margin-right: 100px;
+   font-size: 30px;
+   color: white;
+}
+
+.pt1 img{
+    border-radius:70%;
+    width:200px;
+    margin-left: 900px;
+    margin-top: -80;
+}
+
+.jianjie1{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -80px;
+}
+.tname2{
+    padding: 50px;
+   margin-top: 60px;
+   margin-left:100px;
+   background-color: lightskyblue;
+   text-align: center;
+   padding-left:10px;
+   margin-right: 100px;
+   font-size: 30px;
+   color: white;
+}
+
+.pt2 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-80;
+}
+
+.jianjie2{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -80px;
+}
+
+.tname3{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt3 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie3{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -50px;
+}
+.tname4{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt4 img{
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-120;
+}
+
+.jianjie4{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -150px;
+}
+
+.tname5{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt5 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie5{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -110px;
+}
+
+.tname6{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt6 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie6{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -110px;
+}
+
+.tname7{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt7 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie7{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -110px;
+}
+
+.tname8{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt8 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie8{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -110px;
+}
+
+.tname9{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt9 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie9{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -110px;
+}
+.tname10{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt10 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie10{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -125px;
+}
+
+.tname11{
+    padding: 50px;
+    margin-top: 60px;
+    margin-left:100px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding-left:10px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.pt11 img{
+    border-radius: 70%;
+    width: 200px;
+    margin-left: 900px;
+    margin-top:-100;
+}
+
+.jianjie11{
+    font-family: 'Fredoka One', cursive;
+    padding: 50px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color:lightblue ;
+    margin-top: -125px;
+}
+
+.contact{
+    background-color: lightskyblue;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.logo2{
+    margin-top: 20px;
+}
+
+.contact1{
+    margin-left:450px;
+    margin-top: -200px;
+}
+
+.hp{
+    margin-left: 460px;
+    margin-top: 60px;
+    color: white;
+}
+
+.contact2{
+    margin-left: 1000px;
+    margin-top: -110px;
+}
+
+.fb{
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.fb a{
+    font-size: 50px;
+    color:white;   
+}
+
+@media screen and (min-width:300px) and (max-width:1028px){
+    .container{
+        margin-right:-200px;
+    }
+  
+    .teacher{
+        margin-right: -200px;
+    }
+
+    .tname1{
+        margin-right: -150px;
+    }
+
+    .jianjie1{
+        margin-right: -150px;
+    }
+
+    .tname2{
+        margin-right: -150px;
+    }
+
+    .jianjie2{
+        margin-right: -150px;
+    }
+
+    .tname3{
+        margin-right: -150px;
+    }
+
+    .jianjie3{
+        margin-right: -150px;
+    }
+
+    .tname4{
+        margin-right: -150px;
+    }
+
+    .jianjie4{
+        margin-right: -150px;
+    }
+
+    .tname5{
+        margin-right: -150px;
+    }
+
+    .jianjie5{
+        margin-right: -150px;
+    }
+
+    .tname6{
+        margin-right: -150px;
+    }
+
+    .jianjie6{
+        margin-right: -150px;
+    }
+
+    .tname7{
+        margin-right: -150px;
+    }
+
+    .jianjie7{
+        margin-right: -150px;
+    }
+
+    .tname8{
+        margin-right: -150px;
+    }
+
+    .jianjie8{
+        margin-right: -150px;
+    }
+     
+    .tname9{
+        margin-right: -150px;
+    }
+
+    .jianjie9{
+        margin-right: -150px;
+    }
+
+    .tname10{
+        margin-right: -150px;
+    }
+
+    .jianjie10{
+        margin-right: -150px;
+    }
+
+    .tname11{
+        margin-right: -150px;
+    }
+
+    .jianjie11{
+        margin-right: -150px;
+    }
+
+    .contact{
+        margin-right: -200px;
+        padding-bottom: 100px;
+    }
+
+    .logo2{
+        color: lightskyblue;
+    }        
+
+    .contact1{
+        font-size:20px;
+        margin-left:280px;
+        margin-top: -250px
+    }
+
+    .hp{
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+
+    .contact2{
+        margin-top: -200px;
+    }
+}

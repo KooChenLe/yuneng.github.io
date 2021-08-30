@@ -1,0 +1,245 @@
+.container{
+    padding-left: 20px;
+    background-color:lightskyblue;
+    padding-bottom: 70px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding:15px 0;
+    margin-left:0px;
+    margin-top: -100px;
+ 
+}
+
+ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:2px solid white;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 0.5s;
+}
+
+.hometitle{
+    font-family: 'Anton', sans-serif;
+    font-size:50px;
+    margin-left: 60px;
+    margin-top:20px;
+    color: white;
+    border: 5px dotted white;
+    margin-right: 80px;
+    padding: 30px;
+    background-color:black;
+}
+
+.zz{
+   border:60px solid ;
+   border-color: lightslategray;
+   margin-top: 40px;
+   background-color: lightskyblue;
+}
+    
+.zhongzhi{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -10px;
+    color: white;
+}
+
+.zhongzhi1{
+    margin-left: 60px;
+    font-size: 40px;
+    color: white;
+}
+
+.zhongzhi2{
+    margin-left: 800px;
+    font-size: 40px;
+    margin-top: -80px;
+    color: white;
+}
+
+.zhongzhi3{
+    text-align: center;
+    margin-left: -10px;
+    margin-top: 30px;
+    color:gold;
+}
+
+.aboutus{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Style Script', cursive;
+    font-size: 50px;
+}
+
+.font{
+    margin-left:350px;
+    font-size: 40px;
+    margin-top: 20px;
+    padding:40px;
+    border:10px solid lightskyblue;
+    border-radius: 22px;  
+    margin-right: 300px;  
+    padding-left: 60px;
+    box-shadow: black 10px 10px;
+    list-style-image: url(image/check.png) ;
+}
+.yingpian{
+    margin-top: -50px;
+    margin-left:180px ;
+    color: lightskyblue;
+    
+}
+
+.fa{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: lightskyblue;
+}
+
+.video{
+    width:1000px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.yingpian hr{
+    margin-right:1000px;
+    padding:3px;
+    background-color: black;
+}
+
+.contact{
+    margin-top: 70px;
+    background-color: lightskyblue;
+    padding: 40px;
+}
+
+.logo2{
+    margin-top: 20px;
+}
+
+.contact1{
+    margin-left:450px;
+    margin-top: -200px;
+}
+
+.hp{
+    margin-left: 460px;
+    margin-top: 60px;
+    color: white;
+}
+
+.contact2{
+    margin-left: 1000px;
+    margin-top: -110px;
+}
+
+.fb{
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.fb a{
+    font-size: 50px;
+    color:white;   
+}
+
+@media screen and (min-width:300px) and (max-width:1028px){
+    .container{
+        margin-right:-200px;
+    }
+  
+    .hometitle{
+        margin-right: -40px;
+        margin-left: 150px;
+        font-size: 20px;
+        padding-left:80px;
+    }
+
+    .zz{
+        margin-right:-200px;
+        padding-bottom: 30px;
+    }
+
+    .zhongzhi1{
+        text-align: center;
+        margin-left: -300px;
+        margin-top: 20px;
+    }
+
+    .zhongzhi2{
+        margin-top: 30px;
+        margin-left:500px;   
+    }
+
+    .zhongzhi{
+        color: black;
+    }
+
+    .aboutus{
+        margin-left: 100px;
+    }
+
+    .font{
+        margin-right: -100px;
+        margin-left: 150px;
+    }
+
+    .fa{
+        margin-top: 120px;
+    }
+
+    .yingpian{
+        margin-top: -55px;
+    }
+
+    .video{
+        margin-left: 100px;
+    }
+
+    .contact{
+        margin-right: -200px;
+        padding-bottom: 100px;
+    }
+
+    .logo2{
+        color: lightskyblue;
+    }        
+
+    .contact1{
+        font-size:20px;
+        margin-left:280px;
+        margin-top: -250px
+    }
+
+    .hp{
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+
+    .contact2{
+        margin-top: -200px;
+    }
+}

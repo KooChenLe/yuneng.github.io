@@ -1,0 +1,213 @@
+.container{
+    padding-left: 20px;
+    background-color:lightskyblue;
+    padding-bottom: 70px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding:15px 0;
+    margin-left:0px;
+    margin-top: -100px;
+ 
+}
+
+ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:2px solid white;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 0.5s;
+}
+
+.star{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 30px;
+    border: 5px dotted white;
+}
+
+.fivestar{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.icon{
+    margin-top: 65px;
+    font-size: 50px;
+    margin-left: 210px;
+    color: lightskyblue;
+}
+
+.fivstar{
+    margin-left: 280px;
+    font-size: 20px;
+    margin-top:-45px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: lightskyblue;
+}
+
+.xiao{
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: lightskyblue;
+}
+
+.photo{
+    background-color: grey;
+    padding: 80px;
+    margin-bottom: 50px;
+}
+
+.pho1{
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.pho2{
+    margin-left: 750px;
+    margin-top:-1000px;
+    display: flex;
+}
+
+.pho3{
+    margin-left:750px ;
+    margin-top: 200px;
+}
+
+.gushi{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 30px;
+    text-align: right;
+    margin-top:-60px;
+    background-color: lightskyblue;
+    padding: 20px;
+    border: 5px dotted white;
+}
+
+.pic{
+    background-color: grey;
+    padding-bottom: 20px;
+}
+
+.gushi1{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.gushi2{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.gushi3{
+    margin-left: 100px;
+}
+
+.contact{
+    background-color: lightskyblue;
+    padding: 40px;
+}
+
+.logo2{
+    margin-top: 20px;
+}
+
+.contact1{
+    margin-left:450px;
+    margin-top: -200px;
+}
+
+.hp{
+    margin-left: 460px;
+    margin-top: 60px;
+    color: white;
+}
+
+.contact2{
+    margin-left: 1000px;
+    margin-top: -110px;
+}
+
+.fb{
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.fb a{
+    font-size: 50px;
+    color:white;   
+}
+
+@media screen and (min-width:300px) and (max-width:1028px){
+    .container{
+        margin-right:-350px;
+    }
+  
+    .star{
+        margin-right: -350px;
+    }
+
+    .xiao{
+        margin-right: -350px;
+    }
+
+    .photo{
+        margin-right: -350px;
+    }
+
+    .gushi{
+        margin-right: -350px;
+    }
+
+    .pic{
+        margin-right:-350px;
+    }
+
+    .contact{
+        margin-right: -350px;
+        padding-bottom: 100px;
+    }
+
+    .logo2{
+        color: lightskyblue;
+    }        
+
+    .contact1{
+        font-size:20px;
+        margin-left:280px;
+        margin-top: -250px
+    }
+
+    .hp{
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+
+    .contact2{
+        margin-top: -200px;
+    }
+}

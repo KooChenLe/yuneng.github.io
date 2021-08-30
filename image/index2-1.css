@@ -1,0 +1,180 @@
+.container{
+    padding-left: 20px;
+    background-color:lightskyblue;
+    padding-bottom: 70px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    padding:15px 0;
+    margin-left:0px;
+    margin-top: -100px;
+ 
+}
+
+ul{
+    float: right;
+    margin-top: 10px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:2px solid white;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color:#000;
+    transition: 0.5s;
+}
+.huanjing{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    padding: 30px;
+    border: 5px dotted white;
+}
+
+.box{
+    background-color: grey;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.p1{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.p2{
+    margin-left: 70px;
+}
+
+.p3{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p4{
+    margin-left: 70px;
+}
+
+.p5{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p6{
+    margin-left: 70px;
+}
+
+.p7{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p8{
+    margin-left: 70px;
+}
+
+.p9{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p10{
+    margin-left: 70px;
+}
+
+.p11{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.p12{
+    margin-left: 70px;
+}
+
+.contact{
+    background-color: lightskyblue;
+    padding: 40px;
+}
+
+.logo2{
+    margin-top: 20px;
+}
+
+.contact1{
+    margin-left:450px;
+    margin-top: -200px;
+}
+
+.hp{
+    margin-left: 460px;
+    margin-top: 60px;
+    color: white;
+}
+
+.contact2{
+    margin-left: 1000px;
+    margin-top: -110px;
+}
+
+.fb{
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.fb a{
+    font-size: 50px;
+    color:white;   
+}
+
+@media screen and (min-width:300px) and (max-width:1028px){
+    .container{
+        margin-right:-200px;
+    }
+  
+    .huanjing{
+        margin-right: -200px;
+    }
+    
+    .box{
+        margin-right: -200px;
+    }
+
+    .contact{
+        margin-right: -200px;
+        padding-bottom: 100px;
+    }
+
+    .logo2{
+        color: lightskyblue;
+    }        
+
+    .contact1{
+        font-size:20px;
+        margin-left:280px;
+        margin-top: -250px
+    }
+
+    .hp{
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+
+    .contact2{
+        margin-top: -100px;
+    }
+}
